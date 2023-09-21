@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #1e2cf0;
+    color: #fff;
+    height: 40px;
+    box-shadow: 0px 0px 15px 5px grey;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+
+
+table{
+    width: 300px;
+    background-color: aliceblue;
+    border-collapse: collapse;
+}
+
+td:hover{
+    background-color: red;
+}
+
+th , td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 19px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    height: 30px;
+}
+
+.main-container{
+    display: flex;
+}
+
+.right{
+    width: 1073px;
+    height: 570px;
+    border: 1px solid black;
+    animation: ani normal 20s infinite ease-in-out;
+}
+   
+
+
+.footer{
+    width: 1345px;
+    height: 200px;
+    background-color: rgb(143, 133, 133);
+}
+
+@keyframes ani {
+    0%{
+        background-image: url('https://images.herzindagi.info/image/2022/Sep/Famous-Hindu-Temples-Of-Khajuraho.jpg');
+        background-size: 100% 100%;
+    }
+
+    10%{
+        background-image: url('https://images.unsplash.com/photo-1564507592333-c60657eea523?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGFqJTIwbWFoYWx8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+        background-size: 100% 100%;
+    }
+
+
+    20%{
+        background-image: url('https://miro.medium.com/v2/resize:fit:603/1*fYA-b-KA9UUqPL2OsDYkQw.png');
+        background-size: 100% 100%;
+    }
+
+
+    30%{
+        background-image: url('https://indiacsr.in/wp-content/uploads/2022/07/India-Gate.jpg');
+        background-size: 100% 100%;
+    }
+
+
+    40%{
+        background-image: url('https://www.jaipurstuff.com/wp-content/uploads/2019/03/amer-fort-jaipur.jpg');
+        background-size: 100% 100%;
+    }
+
+
+    50%{
+        background-image: url('https://yometro.com/images/places/gateway-of-india.jpg');
+        background-size: 100% 100%;
+    }
+
+
+    60%{
+        background-image: url('https://jaisalmertourism.co.in/images/places-to-visit/headers/jaisalmer-fort-entry-fee-timings-holidays-reviews-header.jpg');
+        background-size: 100% 100%;
+    }
+
+
+
+    70%{
+        background-image: url('https://static.toiimg.com/thumb/msid-61755089,width-400,resizemode-4/61755089.jpg');
+        background-size: 100% 100%;
+    }
+
+
+    80%{
+        background-image: url('https://media.istockphoto.com/id/1160975059/photo/qutub-minar-and-its-monuments-delhi.jpg?s=612x612&w=0&k=20&c=nCQpmVYsfFYpMg8i-6kQkuHfQ9P-5IXGxyADVItiD_k=');
+        background-size: 100% 100%;
+    }
+
+
+    90%{
+        background-image: url('https://plus.unsplash.com/premium_photo-1661919589683-f11880119fb7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVkJTIwZm9ydHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80');
+        background-size: 100% 100%;
+    }
+
+
+    100%{
+        background-image: url('https://www.sitesbay.com/general-knowledge/images/historical-monuments-of-india.jpg');
+        background-size: 100% 100%;
+    }
+
+}
+
